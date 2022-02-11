@@ -28,7 +28,7 @@ ul{
 /* menù container */
 .menucontainer{
     width: 100%;
-    height: 120px;
+    height: 80px;
     display: inline-block;
 }
 
@@ -44,16 +44,17 @@ ul{
 
 .menucontainer1 div{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menucontainer1 div li{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menucontainer1 img{
     vertical-align: middle;
+    cursor: pointer;
 }
 /* right */
 
@@ -68,16 +69,24 @@ ul{
 
 .menucontainer2 div{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menucontainer2 nav ul li{
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
     text-align: right;
 }
 
+/* hover */
 
+.menucontainer1 a:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.menucontainer2 a:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+}
 
 /* buttons */
 
@@ -87,3 +96,18 @@ ul{
     background-color: #0061FF;
     color: white;
 }
+
+
+
+main{
+    margin-top: 10px;
+}
+
+
+.contain{
+    border: 1px solid lightblue;
+    width: 100%;
+    height:calc(40em - 30px);
+    background-color: #B4D0E7;
+}
+
