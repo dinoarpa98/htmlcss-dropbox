@@ -161,7 +161,6 @@ header{
 /* prezzi */
 
 .row{
-    border: 1px solid black;
     margin-top: 10em;
     width: 80%;
     height:80em;
@@ -170,7 +169,6 @@ header{
 }
 
 .row h2{
-    margin-bottom: 50px;
     text-align: left;
 }
 
@@ -180,12 +178,88 @@ header{
     margin-bottom: 10px;
 }
 
-.bars{
-    height: 80%;
+
+/* containercolumn */
+
+.column{
     
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+/* c1 */
+.c1title{
+    border: 1px solid black;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    padding: 15px;
+}
+
+.c1{
+    border: 1px solid black;
+    width: 25%;
+    height: 90%;
+    margin-right: 5em;
+    float: left;
+}
+
+.c1 h2 {
+    padding: 20px;
+}
+
+.c1 h3, span:first-of-type {
+    padding: 20px;
+}
+
+.c1 span{
+    color: lightgray;
+}
+
+.c1 ul{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.c1 li{
+    padding: 20px 0;
+}
+
+.c1 h4{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.trial a:first-of-type{
+    border: 1px solid blue;
+    background-color: #0061FF;
+    padding:10px 50px;
+    text-decoration: none;
+    color: white;
 }
 
 
+.trial{
+    text-align: center;
+}
 
+.bnow a{
+    color: #0061FF;
+}
+
+.bnow{
+    text-align: left;
+    padding: 30px;
+}
+
+
+.hr{
+    border:1px solid lightgray;
+    width: 50px;
+    margin-left: 30px;
+}
+
+/* c2 */
 
 
