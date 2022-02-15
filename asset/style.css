@@ -160,7 +160,7 @@ header{
 .row h2{
     text-align: left;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .row form{
@@ -206,7 +206,6 @@ header{
 }
 
 .c1 ul{
-    margin-top: 30px;
     padding: 20px;
 }
 
@@ -252,10 +251,6 @@ header{
     margin: 0 calc(25% / 2);
 }
 
-
-
-
-
 /* section 2 */
 
 .team{
@@ -283,7 +278,15 @@ header{
     text-decoration: none;
 }
 
-.teamtext h3,h4,p{
+.teamtext h3{
+    padding: 10px;
+}
+
+.teamtext h4{
+    padding: 10px;
+}
+
+.teamtext p{
     padding: 10px;
 }
 
@@ -291,17 +294,38 @@ header{
 /* section4 */
 
 .box{
-    border: 5px solid #333;
     width: 70%;
     margin: auto;
 }
 
-.imgbox img{
+ 
+.imgbox{
     width: 40%;
     float: left;
 }
-
+.imgbox img{
+  width: 100%;
+}
 
 .textbox{
     
+    float: left;
+    width: 40%;
+    font-size: large;
+    margin-left: 40px;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.textbox h3, p, a{
+    padding: 10px;
+    line-height: 180%;
+}
+
+.textbox a{
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
